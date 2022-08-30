@@ -1,0 +1,182 @@
+*{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+list-style: SQUARE;
+padding: 0;
+margin: 0px;
+}
+body{
+    background: #333;
+    text-transform: uppercase;
+    }
+    h1{
+      text-align:center;
+    }
+    h3{
+      margin: 5px;
+    }
+  .skills{
+    width:500px;
+    margin:60px auto;
+    color:white;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  .skill li{
+
+margin: 20px 0;
+padding: 10px;
+
+  }
+  .bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius:3px;
+    overflow:hidden;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-beizier(.25,.7,.25,1);
+
+  }
+  .bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  .bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,103,103,1)100%);
+  }
+  .CAD {
+width: 60%;
+animation: CAD 3s;
+
+  }
+  .FEA {
+    width: 55%;
+    animation: FEA 3s;
+    
+      }
+       
+
+  .CFD {
+    width: 40%;
+    animation: CFD 3s;
+    
+      }
+
+ .HVAC{
+width: 65%;
+animation: HVAC 3s;
+
+  }
+
+  .ProjectManagement {
+    width: 75%;
+    animation: ProjectManagement 3s;
+    
+      }
+  
+      .MATLAB{
+        width: 30%;
+        animation: MATLAB 3s;
+        
+          }
+
+          .HTML5{
+            width: 60%;
+            animation: HTML5 3s;
+            
+              }
+
+              .CSS{
+                width: 60%;
+                animation: CSS 3s;
+                
+                  }
+              
+
+                .JAVASCRIPT{
+                  width: 30%;
+                  animation: JAVASCRIPT 3s;
+                  
+                    }
+  @keyframes CAD {
+    0%{
+      WIDTH: 0%;
+    }
+    100%{
+      WIDTH: 60%
+    }
+  }
+  @keyframes FEA {
+    0%{
+      WIDTH: 0%;
+    }
+    100%{
+      WIDTH: 55%
+    }
+  }
+  @keyframes CFD {
+    0%{
+      WIDTH: 0%;
+    }
+    100%{
+      WIDTH: 40%
+    }
+  }
+  @keyframes HVAC {
+    0%{
+      WIDTH: 0%;
+    }
+    100%{
+      WIDTH: 65%
+    }
+  }
+  @keyframes ProjectManagement{
+    0%{
+      WIDTH: 0%;
+    }
+    100%{
+      WIDTH: 75%
+    }
+  }
+  @keyframes MATLAB {
+    0%{
+      WIDTH: 0%;
+    }
+    100%{
+      WIDTH: 30%
+    }
+  }
+  @keyframes HTML5{
+    0%{
+      WIDTH: 0%;
+    }
+    100%{
+      WIDTH: 60%
+    }
+  }
+  @keyframes CAD {
+    0%{
+      WIDTH: 0%;
+    }
+    100%{
+      WIDTH: 60%
+    }
+  }
+  @keyframes CSS {
+    0%{
+      WIDTH: 0%;
+    }
+    100%{
+      WIDTH: 60%
+    }
+  }
+  @keyframes JAVASCRIPT {
+    0%{
+      WIDTH: 0%;
+    }
+    100%{
+      WIDTH: 30%
+    }
+  }
